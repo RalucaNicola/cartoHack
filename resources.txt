@@ -1,5 +1,7 @@
 UNESCO Welterbe: https://whc.unesco.org/en/list/?&mode=table
 ArcGIS Survey: https://arcg.is/vTauz
 Github: https://github.com/RalucaNicola/cartoHack
+User icon: https://freesvg.org/user-icon
+Colors schemes: https://color.adobe.com/mythemes
 
 

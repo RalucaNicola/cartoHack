@@ -5,7 +5,7 @@
     "sourceMap": true,
     "jsx": "react",
     "jsxFactory": "tsx",
-    "target": "es5",
+    "target": "es6",
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "preserveConstEnums": true,

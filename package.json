@@ -1,8 +1,7 @@
 {
-  "name": "get-started-arcgis-js-api",
-  "version": "1.0.1",
-  "description": "A web app and tutorial to get started with 3D web visualizations using ArcGIS API for JavaScript",
-  "main": "index.js",
+  "name": "carto-hack",
+  "version": "1.0.0",
+  "description": "An intro to web mapping - CartoHack sessions, February 2021",
   "scripts": {
     "watch:build": "tsc -w",
     "watch:server": "browser-sync start --server -w",
@@ -10,13 +9,11 @@
     "start": "npm-run-all --parallel watch:build watch:server"
   },
   "keywords": [
-    "3D",
+    "map",
     "tutorial",
     "web",
     "beginner",
     "ArcGIS",
-    "API",
-    "for",
     "JavaScript"
   ],
   "author": "Raluca Nicola",

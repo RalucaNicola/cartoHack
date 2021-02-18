@@ -1,7 +1,20 @@
 import map from "app/map";
-import MapView from "esri/views/MapView";
+import SceneView from "esri/views/SceneView";
+import Legend from "esri/widgets/Legend";
 
-const view = new MapView({
+const view = new SceneView({
   map,
-  container: "viewDiv"
+  container: "viewDiv",
+  popup: {
+    defaultPopupTemplateEnabled: true
+  },
+  spatialReference: {
+    wkid: 102100
+  }
 });
+
+const legend = new Legend({
+  view
+});
+
+view.ui.add(legend, "bottom-right");
